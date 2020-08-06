@@ -2,29 +2,25 @@
 <html lang="en">
     <head>
         <title>Search</title>
-        <style>
-            a{
-                color: black;
-                text-decoration:none
-            }
-        </style>
+        <link rel="stylesheet" href="s.css">
     </head>
     <body>
-        <div style="text-align: right;">
-            <a href="index.html"style=> Search</a>
+        <div id="div1">
+            <a href="search.html"> Search</a>
             &nbsp;&nbsp;
-            <a href="images.html"style=>Images</a>
+            <a href="images.html">Images</a>
         </div>
-        <div style="text-align: center; margin: 150px;">
-            <h1 style="color: rgb(20, 139, 212); font-size: 50px;" >
-                Google<sub style="font-size: 15px;">advanced search</sub>
+        <div id="div2">
+            <h1>
+                Google
+                <sub>advanced search</sub>
             </h1>
-        <form action="https://google.com/search">
-            <h2>all these words: <input type="text" name="q"></h2>
-            <h2>this exact word or phrase: <input type="text" name="+"></h2>
-            <h2>any of these words: <input type="text" name="+"></h2>
-            <h2>none of these words: <input type="text" name="+-"></h2>
-            <input type="submit" value="Advanced Search">
+        <form action="https://www.google.com/search">
+            <h2>all these words: <input class="c1" type="text" name="as_q"></h2>
+            <h2>this exact word or phrase: <input class="c1" type="text" name="as_epq"></h2>
+            <h2>any of these words: <input class="c1" type="text" name="as_oq"></h2>
+            <h2>none of these words: <input class="c1" type="text" name="as_eq"></h2>
+            <input id="as" type="submit" value="Advanced Search">
         </form>
     </div>
     </body>
